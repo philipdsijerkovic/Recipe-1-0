@@ -1,0 +1,25 @@
+.discover-title {
+    color: white;
+  }
+  
+  .search-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 20px; /* Added rounded corners */
+    border: 1px solid #ccc; /* Subtle border */
+    font-size: 1rem; /* Adjusted font size for readability */
+    color: #fc8181; /* Darker text color for contrast */
+    background-color: #f9f9f9; /* Lighter background for the input */
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #fc8181; /* Gradient start color for focus */
+  }
+  
