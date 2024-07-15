@@ -1,8 +1,18 @@
 const AnimatedButton = () => {
   return (
-    <button className='inline-flex items-center justify-center h-10 px-10 py-1 text-sm font-medium text-white bg-gradient-to-r from-blue-700 to-blue-300 bg-[length:200%_100%] rounded-full border border-transparent transition-all duration-300 ease-in-out hover:bg-[position:100%_50%] hover:shadow-lg hover:shadow-blue-700/50 focus:outline-none focus:ring-2 focus:ring-blue-300 focus:ring-offset-1 focus:ring-offset-gray-800'>
-  Go
-</button>
+    <a href="https://websitecost.today/" target="_blank"
+      className="group relative overflow-hidden bg-blue-600 focus:ring-4 focus:ring-blue-300 inline-flex items-center px-4 py-2 text-sm font-medium rounded-full text-white justify-center">
+      <span className="z-40">To Recipe</span>
+      <svg className="z-40 ml-2 -mr-1 w-3 h-3 transition-all duration-300 group-hover:translate-x-1" fill="currentColor"
+        viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path fillRule="evenodd"
+          d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+          clipRule="evenodd"></path>
+      </svg>
+      <div
+        className="absolute inset-0 h-[200%] w-[200%] rotate-45 translate-x-[-70%] transition-all group-hover:scale-100 bg-white/30 group-hover:translate-x-[50%] z-20 duration-1000">
+      </div>
+    </a>
   );
 };
 

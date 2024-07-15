@@ -4,14 +4,13 @@ import Card from "../Card";
 import AnimatedText from "../AnimatedText";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
 const LandingPage = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       {App()}
       <div className="text-center py-10">
         <h1 className="text-5xl font-bold text-gray-800">
-        Welcome to <span className="text-gradient bg-gradient-to-r from-blue-700 to-blue-300">Recipe 1.0</span> {/* Adjusted gradient */}
+          Welcome to <span className="text-gradient bg-gradient-to-r from-blue-700 to-blue-300">Recipe 1.0</span> {/* Adjusted gradient */}
         </h1>
         <p className="text-xl text-gray-600 mt-9 ">
           <span className="code-look">
@@ -21,7 +20,7 @@ const LandingPage = () => {
         </p>
         {AnimatedText()}
       </div>
-      <div className="cards-container flex flex-wrap justify-center gap-4 p-4">
+      <div className="cards-container grid grid-cols-1 sm:grid-cols-3 gap-4 p-4">
         <Card />
         <Card />
         <Card />
